@@ -20,7 +20,7 @@
             <ProgressBar Progress="0.7"></ProgressBar>
             <Button Text="Tämä on väärä vastaus" BackgroundColor="#504F51" TextColor="White" />
             <Button Text="Tämä on väärä vastaus" BackgroundColor="#504F51" TextColor="White" />
-            <Button Text="Tämä on oikea vastaus" BackgroundColor="#504F51" TextColor="White" />
+            <Button Text="Tämä on oikea vastaus" BackgroundColor="#504F51" TextColor="White" Clicked="Handle_Clicked" />
             <Button Text="Tämä on väärä vastaus" BackgroundColor="#504F51" TextColor="White" />
         </StackLayout>
 	</ContentPage.Content>
