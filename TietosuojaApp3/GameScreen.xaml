@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TietosuojaApp3.GameScreen" Title="Pelaa" BackgroundColor="Gray">
 	<ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Gray" Margin="50">
-            <Label Text="Pisteet"></Label>
+            <Label Text="Pisteet" BackgroundColor="#504F51" TextColor="White"></Label>
             <Label 
                 Text="Tämä on esimerkki kysymys tietosuojasta, johon on ainoastaan yksi oikea vastaus maailmassa" 
                 BackgroundColor="#504F51" VerticalOptions="FillAndExpand" 
