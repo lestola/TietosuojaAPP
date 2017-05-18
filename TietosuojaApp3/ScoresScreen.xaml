@@ -2,12 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TietosuojaApp3.ScoresScreen" BackgroundColor="Gray">
 	<ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="mitali3.png" HeightRequest="200" />
             <Label Text="Pisteet:" FontSize="40" HorizontalTextAlignment="Center" TextColor="White"></Label>
             <Label Text="5/10" FontSize="80" HorizontalTextAlignment="Center" TextColor="White"></Label>
+            <Label Text="Arvonimi: Tietosuoja-amatööri" FontSize="16" HorizontalTextAlignment="Center" TextColor="White"></Label>
             <Label Text="Jaa tuloksesi" FontSize="40" HorizontalTextAlignment="Center" TextColor="White"></Label>
-            <Button Text="Facebook" TextColor="White" BackgroundColor="#504F51"></Button>
-            <Button Text="Sähköposti" TextColor="White" BackgroundColor="#504F51"></Button>
-            <Button Text="Twitter" TextColor="White" BackgroundColor="#504F51"></Button>
+            <Button Text="Facebook" TextColor="White" BackgroundColor="#504F51" Image="facebook.png"></Button>
+            <Button Text="E-Mail" TextColor="White" BackgroundColor="#504F51" Image="emails.png"></Button>
+            <Button Text="Twitter" TextColor="White" BackgroundColor="#504F51" Image="twitter.png"></Button>
+            <Button Text="Palaa päävalikkoon" TextColor="White" BackgroundColor="#504F51" Clicked="MainMenu_Clicked"></Button>
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -20,5 +20,10 @@ namespace TietosuojaApp3
 
             NavigationPage.SetHasNavigationBar(page, false);
         }
+
+        void Settings_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SettingsScreen());
+        }
     }
 }

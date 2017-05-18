@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TietosuojaApp3.MainMenu" Title="Menu" BackgroundColor="Gray">
 	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="Tietosuoja" FontSize="40" TextColor="White" />
+        <StackLayout Orientation="Horizontal" Margin="0,0,0,50">
+            <Image Source="suomi.gif" HeightRequest="33" />
+            <Image Source="ruotsi.jpg" HeightRequest="33" />
+            <Image Source="usa.png" HeightRequest="33" />
+        </StackLayout>
+        <Label Text="Tietosuoja Quiz" FontSize="40" TextColor="White" />
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Center" Padding="30">
             <Button Text="Uusi Peli" Clicked="Handle_Clicked" BackgroundColor="#504F51" TextColor="White" />
             <Button Text="Pisteet" BackgroundColor="#504F51" TextColor="White" />
-            <Button Text="Jaa tulokset" BackgroundColor="#504F51" TextColor="White" />
-            <Button Text="Asetukset" BackgroundColor="#504F51" TextColor="White" />
+            <Button Text="Jaa paras tulos" BackgroundColor="#504F51" TextColor="White" />
+            <Button Text="Asetukset" BackgroundColor="#504F51" TextColor="White" Clicked="Settings_Clicked" />
             <Button Text="Ohje" BackgroundColor="#504F51" TextColor="White" />
-            <Button Text="Lopeta" BackgroundColor="#504F51" TextColor="White" />
         </StackLayout>
     </StackLayout>
 </ContentPage>

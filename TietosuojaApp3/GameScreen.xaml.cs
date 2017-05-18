@@ -16,7 +16,11 @@ namespace TietosuojaApp3
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new ScoresScreen());
+            var page = new ScoresScreen();
+
+            Navigation.PushAsync(page);
+
+            NavigationPage.SetHasNavigationBar(page, false);
         }
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TietosuojaApp3.SettingsScreen" BackgroundColor="Gray" >
+	<ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Margin="60">
+            <Label Text="Asetukset" FontSize="30" HorizontalTextAlignment="Center" TextColor="White" Margin="0,0,0,35"/>
+            <StackLayout Margin="5">
+                <Label Text="Vaikeustaso" TextColor="White" />
+                <Picker x:Name="HardnesLevelPicker" />
+            </StackLayout>
+            <StackLayout Margin="5">
+                <Label Text="Aihealue" TextColor="White" />
+                <Picker x:Name="SubjectPicker" />
+            </StackLayout>
+            <StackLayout Margin="5">
+                <Label Text="Käyttäjänimi" TextColor="White" />
+                <Entry Text="Aku Ankka" />
+            </StackLayout>
+            <StackLayout Margin="5,50">
+                <Button Text="Tallenna" BackgroundColor="#504F51" TextColor="White" Clicked="Save_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

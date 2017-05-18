@@ -107,6 +107,17 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\suomi.gif" />
+    <AndroidResource Include="Resources\drawable\ruotsi.jpg" />
+    <AndroidResource Include="Resources\drawable\uk.png" />
+    <AndroidResource Include="Resources\drawable\usa.png" />
+    <AndroidResource Include="Resources\drawable\mitali1.png" />
+    <AndroidResource Include="Resources\drawable\mitali2.png" />
+    <AndroidResource Include="Resources\drawable\mitali3.png" />
+    <AndroidResource Include="Resources\drawable\twitter.png" />
+    <AndroidResource Include="Resources\drawable\facebook.png" />
+    <AndroidResource Include="Resources\drawable\email.png" />
+    <AndroidResource Include="Resources\drawable\emails.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

@@ -11,5 +11,10 @@ namespace TietosuojaApp3
         {
             InitializeComponent();
         }
+
+        void MainMenu_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PopToRootAsync();
+        }
     }
 }
