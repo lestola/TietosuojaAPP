@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
+using Newtonsoft.Json;
 
 using Xamarin.Forms;
 
@@ -7,6 +9,8 @@ namespace TietosuojaApp3
 {
     public partial class MainMenu : ContentPage
     {
+        //määritellään webclientti
+
         public MainMenu()
         {
             InitializeComponent();
@@ -24,6 +28,13 @@ namespace TietosuojaApp3
         void Settings_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new SettingsScreen());
+        }
+
+        void Ohje_Clicked(object sender, System.EventArgs e)
+        {
+            
+            Navigation.PushAsync(new Ohje());
+
         }
     }
 }

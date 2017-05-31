@@ -15,7 +15,8 @@
                 <Label Text="Käyttäjänimi" TextColor="White" />
                 <Entry Text="Aku Ankka" />
             </StackLayout>
-            <StackLayout Margin="5,50">
+            <StackLayout Margin="5">
+                <Button Text="Päivitä kysymykset" BackgroundColor="#504F51" TextColor="White" Clicked="Save_Clicked" Margin="0,0,0,50"/>
                 <Button Text="Tallenna" BackgroundColor="#504F51" TextColor="White" Clicked="Save_Clicked"/>
             </StackLayout>
         </StackLayout>

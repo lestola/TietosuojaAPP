@@ -1,0 +1,13 @@
+﻿{
+  "kysymykset": [
+    null,
+    {
+      "kysymys": "kuka oli presidenttinä",
+      "vastaus": "obama"
+    },
+    {
+      "kysymys": "kuka on presidenttinä",
+      "vastaus": "trump"
+    }
+  ]
+}

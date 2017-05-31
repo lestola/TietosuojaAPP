@@ -12,7 +12,7 @@
             <Button Text="Pisteet" BackgroundColor="#504F51" TextColor="White" />
             <Button Text="Jaa paras tulos" BackgroundColor="#504F51" TextColor="White" />
             <Button Text="Asetukset" BackgroundColor="#504F51" TextColor="White" Clicked="Settings_Clicked" />
-            <Button Text="Ohje" BackgroundColor="#504F51" TextColor="White" />
+            <Button Text="Ohje" BackgroundColor="#504F51" TextColor="White" Clicked="Ohje_Clicked" />
         </StackLayout>
     </StackLayout>
 </ContentPage>
