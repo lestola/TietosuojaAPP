@@ -1,13 +1,18 @@
-﻿{
-  "kysymykset": [
-    null,
-    {
-      "kysymys": "kuka oli presidenttinä",
-      "vastaus": "obama"
-    },
-    {
-      "kysymys": "kuka on presidenttinä",
-      "vastaus": "trump"
-    }
-  ]
-}
+﻿[
+  {
+    "QuestionToAsk": "Kuka on Suomen presidentti?",
+    "CorrectAnswer": 3,
+    "Answer1": "Kekkonen",
+    "Answer2": "Ahtisaari",
+    "Answer3": "Niinistö",
+    "Answer4": "Mannerheim"
+  },
+  {
+    "QuestionToAsk": "Mikä on seuraavista arvokkain metalli?",
+    "CorrectAnswer": 2,
+    "Answer1": "Hopea",
+    "Answer2": "Platina",
+    "Answer3": "Kulta",
+    "Answer4": "Kupari"
+  }
+]
